@@ -1,0 +1,182 @@
+@import "./tailwind/tailwind.css";
+@import "./bootstrap/bootstrap.css";
+
+@font-face {
+    font-family: 'Roboto normal';
+    font-style: normal;
+    src: url("../font/roboto_Latin.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    src: url("../font/Bebas_Neue.woff2");
+}
+
+*{
+    image-rendering: auto !important;
+}
+
+/* =================================================================================================================================================================================================*/
+
+/*.presentation{
+    background-image: url('../image/8386728825156063244.jpg');
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+}*/
+
+
+
+
+/* =================================================================================================================================================================*/
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.AutomobileTitre {
+    font-size: 4vw !important;
+    text-shadow: 0.2vw 0.2vh #000000;
+}
+
+.Automobile-Container {
+    max-width: 60%;
+    top: 10%;
+}
+
+/*==================================================================================================================================================================================*/
+
+.navbar-toggler{
+    border-color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.85)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* =================================================================================================================================================================================*/
+
+.carousel-inner-realisation > .carousel-item-realisation{
+    height: 30vh !important;
+}
+ 
+.realisation-container{
+    top: 10%;
+    bottom: 90%;
+    right: 20%;
+}
+
+.RealisationTitre{
+    font-size: 9vw !important;
+    text-shadow: 0.3vw 0.3vh #000000;
+}
+
+/* =================================================================================================================================================================================*/
+
+.card-img-realisation{
+    height: 27vh !important;
+    max-height: 30vh !important
+}
+
+/* =================================================================================================================================================================================*/
+
+#description{
+    font-size: 2.5vh !important;
+    line-height : 4.5vh !important;
+}
+
+/* =================================================================================================================================================================================*/
+.ciel-etoile-text{
+    font-size: 2vh !important;
+}
+
+.ciel-etoile-container,.ciel-etoile-container-second{
+    padding-left: 5vw !important;
+    padding-top: 4vh !important;
+    padding-bottom: 7vh !important;
+}
+
+.ciel-etoile-container-second{
+    background-image: url('../image/ciel étoilé/358100500841382651.jpg');
+    background-size: cover;
+}
+
+.title-ciel-etoile{
+    font-size: 4vw !important;
+    text-shadow: 0.1vw 0.1vh #000000;
+    padding-top: 3vh !important;
+}
+
+.ciel-etoile-img{
+    height: 30vh !important;
+    width: auto !important;
+}
+
+.container-etoile-first{
+    padding-left : 15vw !important;
+}
+
+.video-ciel-etoile{
+    height: 60vh !important;
+    border-color: white !important;
+    border-width: 3px !important;
+}
+
+/* =============================================================================================================================================================================================*/
+
+.container-covering{
+    padding-left: 5vw !important;
+    padding-top: 4vh !important;
+    padding-bottom: 7vh !important;   
+}
+
+.covering-text{
+    font-size: 3vh !important;
+}
+
+.video-covering{
+    height: 60vh !important;
+}
+
+/* =============================================================================================================================================================================================*/
+
+.batiment-text{
+    font-size: 3vh !important;
+}
+
+.container-batiment{
+    padding-left: 5vw !important;
+    padding-top: 4vh !important;
+    padding-bottom: 7vh !important;   
+}
+
+/* ==============================================================================================================================================================================================*/
+
+.vitre-teinte-main{
+    background-image: url('../image/04NpIkbEsTWG2.jpg');
+    background-size: cover !important;
+}
+
+.vitre-teinte-text{
+    font-size: 3vh !important;
+}
+
+.vitre-teinte-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vh !important;
+    padding-bottom: 7vh !important;
+}
+
+/* ================================================================================================================================================================================================*/
+
+.container-ppf{
+    padding-left: 5vw !important;
+    padding-top: 4vh !important;
+    padding-bottom: 7vh !important;
+}
+
+/* =============================================================================================================================================================================================*/
+
