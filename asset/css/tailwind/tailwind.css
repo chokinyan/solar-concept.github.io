@@ -558,10 +558,6 @@ video {
   float: left;
 }
 
-.tw-ms-6 {
-  margin-inline-start: 1.5rem;
-}
-
 .tw-space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -612,11 +608,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.tw-object-none {
-  -o-object-fit: none;
-     object-fit: none;
-}
-
 .tw-ps-8 {
   padding-inline-start: 2rem;
 }
@@ -638,6 +629,15 @@ video {
 .tw-text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.tw-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.tw-uppercase {
+  text-transform: uppercase;
 }
 
 .tw-text-black {
