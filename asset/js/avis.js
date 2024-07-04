@@ -1,4 +1,4 @@
-import avis from '/avis.json' with {type:"json"};
+import avis from '../../avis.json' with {type:"json"};
 
 
 const slick = document.getElementsByClassName("slicker")[0];
