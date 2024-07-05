@@ -42,7 +42,7 @@ for(let review of avis.review){
     slick.innerHTML += element;
 }
 
-nbAvis.textContent = `${avis?.userRatingCount}`;
+nbAvis.textContent = `${avis?.userRatingCount} avis`;
 
 try {
     var rating = Math.round(avis?.rating) > avis?.rating ? Math.round(avis?.rating) - 1 :  Math.round(avis?.rating);
