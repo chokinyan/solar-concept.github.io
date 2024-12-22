@@ -288,3 +288,55 @@
 .marquage-video{
     height: 60vh !important;
 }
+
+/* ============================================================================================================================================================================================= */
+
+@media screen and (max-width: 1000px){
+    #ProtectionSolaire{
+        height : 20vh !important;width: auto !important;
+    }
+
+    .img-acceuil-bat-deco{
+        height : auto !important;
+        width: 100vw !important
+    }
+
+    .batiment-text{
+        font-size: 2vh !important;
+    }
+
+    .img-acceuil-bat-secu{
+        height : auto !important;
+        width: 65vw !important
+    }
+
+    #automobileMQA{
+        height : 35vh !important;
+        width:auto !important
+    }
+}
+
+@media screen and (min-width : 1001px) {
+    #ProtectionSolaire{
+        height : 40vh !important;width: auto !important;
+    }
+
+    .img-acceuil-bat-deco{
+        height : auto !important;
+        width: 30vw !important
+    }
+
+    .batiment-text{
+        font-size: 3vh !important;
+    }
+
+    .img-acceuil-bat-secu{
+        height : auto !important;
+        width: 30vw !important
+    }
+
+    #automobileMQA{
+        height : 45vh !important;
+        width:auto !important
+    }
+}
