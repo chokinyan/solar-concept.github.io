@@ -292,7 +292,7 @@
 /* ============================================================================================================================================================================================= */
 
 @media screen and (max-width: 1000px){
-    #ProtectionSolaire{
+    .image-bat-acueil{
         height : 20vh !important;width: auto !important;
     }
 
@@ -317,7 +317,7 @@
 }
 
 @media screen and (min-width : 1001px) {
-    #ProtectionSolaire{
+    .image-bat-acueil{
         height : 40vh !important;width: auto !important;
     }
 
