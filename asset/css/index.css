@@ -202,7 +202,6 @@
 
 .Automobile-video{
     width: auto !important;
-    height: 65vh !important;
     margin: auto !important;
 }
 
@@ -381,6 +380,10 @@
 @media screen and (min-width: 1200px) {
     .video-ciel-etoile{
         height: 60vh !important;
+    }
+
+    .Automobile-video{
+        height: 65vh !important;
     }
 }
 @media screen and (max-width: 1200px) {
