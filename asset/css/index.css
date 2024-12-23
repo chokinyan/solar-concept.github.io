@@ -106,7 +106,7 @@
 }
 
 .video-ciel-etoile{
-    height: 60vh !important;
+    /*height: 60vh !important;*/
     border-color: white !important;
     border-width: 3px !important;
 }
@@ -375,3 +375,24 @@
     vertical-align:middle;
 }
 
+
+
+/*xl*/
+@media screen and (min-width: 1200px) {
+    .video-ciel-etoile{
+        height: 60vh !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #double-image{
+        justify-content: center;
+    }
+
+    .video-vitre{
+        margin-left: 1.5rem !important;
+    }
+}
+
+.video-vitre{
+    height: 60vh !important;
+}
