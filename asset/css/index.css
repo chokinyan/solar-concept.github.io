@@ -396,3 +396,7 @@
 .video-vitre{
     height: 60vh !important;
 }
+
+.alignement-list > li{
+    display: flex;
+}
